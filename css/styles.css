@@ -559,8 +559,20 @@ video {
   margin-right: auto;
 }
 
+.block {
+  display: block;
+}
+
+.h-auto {
+  height: auto;
+}
+
 .w-full {
   width: 100%;
+}
+
+.max-w-\[100\%\] {
+  max-width: 100%;
 }
 
 .max-w-\[700px\] {
@@ -571,16 +583,16 @@ video {
   max-width: 900px;
 }
 
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
-
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
 .bg-\[\#eceef2\] {
@@ -643,6 +655,7 @@ video {
 
 * {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1c1f2a;
 }
 
 .bold {
