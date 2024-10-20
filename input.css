@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+hr {
+    border: 0; 
+    height: 2px; 
+    background-color: #003b5c
+}
+
+img {
+    max-width: 900px;
+    height: 600px;
+}
+
+a {
+    text-decoration: underline;
+}
